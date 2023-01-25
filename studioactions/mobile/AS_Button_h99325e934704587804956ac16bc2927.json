@@ -1,0 +1,28 @@
+{
+    "AS_Button_h99325e934704587804956ac16bc2927": {
+        "id": "AS_Button_h99325e934704587804956ac16bc2927",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ebe00a43c188427db2a459e327274d11"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f513d697aec042c0ab09551071deba16",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "watsapplogout",
+            "display": "watsapplogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

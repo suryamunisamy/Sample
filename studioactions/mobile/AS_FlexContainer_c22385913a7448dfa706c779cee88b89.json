@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_c22385913a7448dfa706c779cee88b89": {
+        "id": "AS_FlexContainer_c22385913a7448dfa706c779cee88b89",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a8bb082accc34ddbae05293dfeb5d4b9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "watsapplogout",
+            "display": "watsapplogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

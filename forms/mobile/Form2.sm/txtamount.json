@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "17dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter the Amount in Rupees",
+    "_skin_": "s7282116108647d1a5a7be5bcd3b69b8",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "159dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "367dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "focusSkin": "s92c1e06878445dc8a3d513aa7e0e680",
+        "placeholderSkin": "s13700922f17403ca5d178328933fea2"
+    },
+    "id": "txtamount",
+    "info": null,
+    "iphone": {},
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "c1fa4cd4ec14427baec6c44d1e40b5bc",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxmain",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

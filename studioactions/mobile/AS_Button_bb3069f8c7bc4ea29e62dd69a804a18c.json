@@ -1,0 +1,33 @@
+{
+    "AS_Button_bb3069f8c7bc4ea29e62dd69a804a18c": {
+        "id": "AS_Button_bb3069f8c7bc4ea29e62dd69a804a18c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ed3188a1f45a4a59aa39a571369cf845"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_SERVICE_a484a2a5acea4688acaa22cbb2dfd5d9",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "login",
+                "servicename": "InfinityUserRepositry",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

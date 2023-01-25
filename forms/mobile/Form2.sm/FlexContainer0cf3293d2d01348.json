@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "220dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa1978e77fef45529fd2a84441ee5e8d",
+    "_top_": {
+        "type": "string",
+        "value": "295dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "93.00%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Label0cc4ad80c04144f",
+        "Button0dbf0a050d10e4a",
+        "CopyButton0acb2c50b85ee46"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlexContainer0cf3293d2d01348",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aab965a10c8d41e7a9a6b003171742c8",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxoverlay",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

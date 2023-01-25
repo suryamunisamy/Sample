@@ -1,0 +1,22 @@
+{
+    "AS_Button_f73a8e2269cf496f999554a60dce4440": {
+        "id": "AS_Button_f73a8e2269cf496f999554a60dce4440",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__bfd2774221404ae6a38812775ce85171",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "authenticateUSer",
+            "display": "authenticateUSer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

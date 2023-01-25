@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_f9b2ffe85a6c4dd4bee37a49f3545055": {
+        "id": "AS_FlexContainer_f9b2ffe85a6c4dd4bee37a49f3545055",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h896651d4b77494085d748a3e5abcd18",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.lblUsername.top==\"6%\"){\n  this.view.flxLblUsername.isVisible=false;\n  this.invokeTouch(this.view.lblUsername,\"-1%\");\n}\nthis.view.forceLayout();",
+            "callbackType": null
+        }]
+    }
+}

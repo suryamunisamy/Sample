@@ -1,0 +1,20 @@
+{
+    "AS_TextField_hd01cf8ed6344c8985da312be52b7bb3": {
+        "id": "AS_TextField_hd01cf8ed6344c8985da312be52b7bb3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDone_aebad8a27fd14a68a74a16cbc40a77fd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  this.onDoneCredentials(this.view.lblPassword);\n}catch(exception){\n  if(exception.type === \"CUSTOM\"){\n    throw exception;\n  }\n}",
+            "callbackType": null
+        }]
+    }
+}

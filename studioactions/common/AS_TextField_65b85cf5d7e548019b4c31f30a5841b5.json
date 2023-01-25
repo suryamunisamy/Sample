@@ -1,0 +1,25 @@
+{
+    "AS_TextField_65b85cf5d7e548019b4c31f30a5841b5": {
+        "id": "AS_TextField_65b85cf5d7e548019b4c31f30a5841b5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "KUID": "uf338773fa22443dac15facfdc0bf29b",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a272dd4f35e446ca8ceffaa6a17544cc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  this.onDoneCredentials(this.view.lblUsername);\n}catch(exception){\n  if(exception.type === \"CUSTOM\"){\n    throw exception;\n  }\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

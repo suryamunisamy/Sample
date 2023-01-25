@@ -1,0 +1,281 @@
+{
+    "classname": "confirmationpopup",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j559f79106124cd09b0eac9cfb1975a6",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onLeftButtonClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onLeftButtonClick",
+                        "srcWidget": "btnDecisionNo",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fa1e5ef514aa4ade87f53612d9659b0c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gfef7eb39b74431fa7f95312412fd21d",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onRightButtonClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRightButtonClick",
+                        "srcWidget": "btnDecisionYes",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u5f9a31de4fa4812befc450d0ac5f6d1"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c9a3acf73af8473c98def0d80a398769",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "messageSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Message Skin",
+                        "srcWidget": "lblHeader",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u64260842fd14b0a9d3fee7b0d0f3203"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e5678b7ae10048189f691a214562bdef",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "leftButtonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Left Button Skin",
+                        "srcWidget": "btnDecisionNo",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fa1e5ef514aa4ade87f53612d9659b0c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f49c24a3dffa40c9a53a6133a7746ab7",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "leftButtonFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Left Button Focus Skin",
+                        "srcWidget": "btnDecisionNo",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fa1e5ef514aa4ade87f53612d9659b0c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f85926ed7d8b4ef49270471c421eab95",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "messageText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Message",
+                        "srcWidget": "lblHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u64260842fd14b0a9d3fee7b0d0f3203"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b77a770caf3b4f4faed6d601c72bfd4a",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "rightButtonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Right Button Skin",
+                        "srcWidget": "btnDecisionYes",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u5f9a31de4fa4812befc450d0ac5f6d1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f001df6a5d3440caba200e4fc2264051",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "rightButtonFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Right Button Focus Skin",
+                        "srcWidget": "btnDecisionYes",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u5f9a31de4fa4812befc450d0ac5f6d1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dc43cd20a6fe45c8a03bcd2dca9a5e21",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "leftButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Left Button Text",
+                        "srcWidget": "btnDecisionNo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fa1e5ef514aa4ade87f53612d9659b0c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g3fe70bf479d4716b4c5c9e22eeae9cf",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "backgroundOverlaySkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Background Overlay",
+                        "srcWidget": "flxPopOverShade",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ub8f2412bdcc4a78ad0cf36733a4bdae"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c33234e250e74c9aad60e31a5693d74d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "rightButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Right Button Text",
+                        "srcWidget": "btnDecisionYes",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "u5f9a31de4fa4812befc450d0ac5f6d1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba9db4c1a94f4305985cf4da6078df45",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "popoverSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Popover Flex Skin",
+                        "srcWidget": "flxPopover",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u222e533a7804eea9b12498ac6abcc48"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "da83aad8e7084f989568de60c3b4242a",
+                    "originalPropertyKey": "contentAlignment",
+                    "propertyIndex": 7,
+                    "propertyKey": "messageAlignment",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Message Alignment",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "lblHeader",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-6ButtonGroup-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u64260842fd14b0a9d3fee7b0d0f3203"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

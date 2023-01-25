@@ -1,0 +1,28 @@
+{
+    "AS_Button_dd8f71e8a5004c78b86356772cdae07b": {
+        "id": "AS_Button_dd8f71e8a5004c78b86356772cdae07b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ebe00a43c188427db2a459e327274d11"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d8d42a12dbad49b2ba6557de0c8d1442",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fundtransfer",
+            "display": "fundtransfer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

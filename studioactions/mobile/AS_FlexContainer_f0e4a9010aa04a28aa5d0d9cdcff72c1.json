@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_f0e4a9010aa04a28aa5d0d9cdcff72c1": {
+        "id": "AS_FlexContainer_f0e4a9010aa04a28aa5d0d9cdcff72c1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ebe00a43c188427db2a459e327274d11"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_bb5df005f829425eb3b103134abca16b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxoverlay.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

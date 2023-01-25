@@ -1,0 +1,28 @@
+{
+    "AS_Button_d1a9b03303a14b5fa7f4b0dac43d24e1": {
+        "id": "AS_Button_d1a9b03303a14b5fa7f4b0dac43d24e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ed3188a1f45a4a59aa39a571369cf845"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d3f1818c7ffe41e39d0b5fb1296a340a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "authenticateNewUSer",
+            "display": "authenticateNewUSer",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

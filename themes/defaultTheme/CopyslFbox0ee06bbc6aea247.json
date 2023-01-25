@@ -1,0 +1,11 @@
+{
+  "background_image": "logout.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "sedd990819034387bdf9ebcf3bf9f016",
+  "wType": "FlexContainer"
+}
