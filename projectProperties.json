@@ -251,7 +251,7 @@
     "bgcolorkey": "255,255,255",
     "blockedChatMessages": "false",
     "bluetooth": "false",
-    "build": "release",
+    "build": "debug",
     "buildExclusion": {},
     "buildWarCompatability": "false",
     "build_gradle_attrs_prefix": "",
@@ -389,14 +389,7 @@
     "keyStoreFilePathandwear": "",
     "keyStorePassword": "",
     "keyStorePasswordandwear": "",
-    "kfAppInfo": {
-        "44a8f3c4-8796-4ee8-985c-10e12d4f3a31": {
-            "appName": "App 415",
-            "baseId": "3cfad361-f272-4f64-b595-2341f0a9bc93",
-            "id": "3cfad361-f272-4f64-b595-2341f0a9bc93",
-            "version": "1.0"
-        }
-    },
+    "kfAppInfo": {},
     "konyVizVersion": "9.6.8",
     "lastmodifiedtime": "1534146194069",
     "location": "false",
